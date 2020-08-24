@@ -1,0 +1,126 @@
+
+body {
+    background-color:#f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.header {
+    text-align: center;
+    padding: 10px;
+}
+.h-span {
+    color: white;
+    background: black;
+    padding: 5px;
+
+}
+.header h1 {
+    font-size: 35px;
+}
+.row {
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+}
+.left-col {
+    float: left;
+    width: 70%;
+}
+.right-col {
+    float: left;
+    width: 30%;
+}
+
+.lc-card {
+    background: white;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p-date {
+    opacity: 0.5;
+}
+.lc-card img {
+    width: 100%;
+}
+.lc-card-content {
+    padding: 5px 15px;
+}
+.lc-card-btn {
+    background-color: white;
+    color: black;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.lc-card-btn:hover {
+    background-color: lightgrey;
+}
+.comments {
+    float: right;
+}
+.c-span {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.rc-card {
+    background: #f0f0f0;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rc-card-heading {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.rc-card-content img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.rc-card-content {
+    padding: 7px;
+    background-color: white;
+    margin: 1px;
+}
+.rc-card-content p {
+    text-align: left;
+    padding-left: 100px;
+    
+}
+#rc-span {
+    background: black;
+    color: white;
+    padding: 2px;
+}
+.rc-card span {
+    background: #f0f0f0;
+}
+.rc-card-content-2 {
+    background: white;
+    padding: 10px;
+}
+.f-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.f-btn:hover {
+    background: #f0f0f0;
+}
+.footer {
+    background-color: dimgray;
+    margin: 0px;
+    color: white;
+    padding: 20px;
+}
+
+
+
